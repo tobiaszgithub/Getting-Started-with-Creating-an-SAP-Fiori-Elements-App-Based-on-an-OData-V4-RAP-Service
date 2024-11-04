@@ -5,6 +5,12 @@
     displayBlock="true">
 
    <VBox id="_IDGenVBox1">
+    <HBox id="_IDGenHBox1" class="">
+        <Text id="_IDGenText" text="The bookings were confirmed on" class="sapUiTinyMarginEnd"/>
+        <macros:Field readOnly="true" metaPath="CreatedAt" id="custom-flightdate"/>
+        <Text id="_IDGenText1" text="by" class="sapUiTinyMarginBeginEnd"/>
+        <macros:Field readOnly="true" metaPath="AgencyID" id="custom-airline"/>
+    </HBox>
      <vbm:AnalyticMap id="_IDGenAnalyticMap" width="100%" xmlns:l="sap.ui.layout" height="600px" initialPosition="-47.48339103742949; 48.70365903454684;0" initialZoom="2" class="sapUiMediumMarginTop">
         <vbm:vos>
             <vbm:Routes id="_IDGenRoutes">
